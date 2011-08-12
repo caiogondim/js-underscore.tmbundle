@@ -3,14 +3,16 @@
 <plist version="1.0">
 <dict>
 	<key>content</key>
-	<string>.include(${1:value})$0</string>
+	<string>.reject(function(${1:num}) {
+	$2
+}${3:, ${4:[context]}})$0</string>
 	<key>name</key>
-	<string>include</string>
+	<string>reject</string>
 	<key>scope</key>
 	<string>source.js</string>
 	<key>tabTrigger</key>
-	<string>.include</string>
+	<string>.reject</string>
 	<key>uuid</key>
-	<string>0C3CE85C-6457-488C-B07A-E34EE10CE731</string>
+	<string>77637439-E3F1-4D4A-B3C8-0BB3FC5CF013</string>
 </dict>
 </plist>

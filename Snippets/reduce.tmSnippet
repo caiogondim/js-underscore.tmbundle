@@ -3,23 +3,17 @@
 <plist version="1.0">
 <dict>
 	<key>content</key>
-	<string>Syntax Summary:
+	<string>.reduce(function(${1:memo}, ${2:num}) {
+	$3
 
-   Variables        $TM_FILENAME, $TM_SELECTED_TEXT
-   Fallback Values  ${TM_SELECTED_TEXT:$TM_CURRENT_WORD}
-   Substitutions    ${TM_FILENAME/.*/\U$0/}
-   
-   Tab Stops        $1, $2, $3, … $0 (optional)
-   Placeholders     ${1:default value}
-   Mirrors          &lt;${2:tag}&gt;…&lt;/$2&gt;
-   Transformations  &lt;${3:tag}&gt;…&lt;/${3/(\w*).*/\U$1/}&gt;
-
-   Shell Code       `date`, `pwd`
-
-   Escape Codes     \$ \` \\
-</string>
+	return memo
+}${4:, ${5:[context]}})$0</string>
 	<key>name</key>
 	<string>reduce</string>
+	<key>scope</key>
+	<string>source.js</string>
+	<key>tabTrigger</key>
+	<string>.reduce</string>
 	<key>uuid</key>
 	<string>E59111A8-236C-4668-B0AA-0AC5CC6EABF8</string>
 </dict>
