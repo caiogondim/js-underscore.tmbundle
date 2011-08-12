@@ -8,6 +8,10 @@
 }${3:, ${4:[context]}})$0</string>
 	<key>name</key>
 	<string>select</string>
+	<key>scope</key>
+	<string>source.js</string>
+	<key>tabTrigger</key>
+	<string>.select</string>
 	<key>uuid</key>
 	<string>E0EFDAD8-6520-4076-B256-0C7238C8500D</string>
 </dict>
