@@ -3,23 +3,13 @@
 <plist version="1.0">
 <dict>
 	<key>content</key>
-	<string>Syntax Summary:
-
-   Variables        $TM_FILENAME, $TM_SELECTED_TEXT
-   Fallback Values  ${TM_SELECTED_TEXT:$TM_CURRENT_WORD}
-   Substitutions    ${TM_FILENAME/.*/\U$0/}
-   
-   Tab Stops        $1, $2, $3, … $0 (optional)
-   Placeholders     ${1:default value}
-   Mirrors          &lt;${2:tag}&gt;…&lt;/$2&gt;
-   Transformations  &lt;${3:tag}&gt;…&lt;/${3/(\w*).*/\U$1/}&gt;
-
-   Shell Code       `date`, `pwd`
-
-   Escape Codes     \$ \` \\
-</string>
+	<string>.debounce(${1:wait})$0</string>
 	<key>name</key>
 	<string>debounce</string>
+	<key>scope</key>
+	<string>source.js</string>
+	<key>tabTrigger</key>
+	<string>.debounce</string>
 	<key>uuid</key>
 	<string>F6A88C62-8DAD-4000-A325-8559AA514AAC</string>
 </dict>
